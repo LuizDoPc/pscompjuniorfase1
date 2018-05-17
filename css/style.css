@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../img/back.png");
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #15294e;
+    font-family: "Roboto";
+}
+
+#title{
+    color: #b3d561;
+    font-family: "Roboto Condensed";
+    font-size: calc(180px - 5vw);
+}
+
+#subtitle{
+    color: #b3d561;
+    font-size: calc(60px - 2vw);
+    margin-top: -25px;
+    margin-left: calc(170px - 2vw);
+}
+
+#line{
+    margin-top: 2vw;
+    border: 5px #e6e1ce dashed;
+}
+
+.nav_img{
+    width: calc(190px - 6vw);
+}
+
+.nav_name{
+    color: #e6e1ce;
+    font-size: 25px;
+}
+
+.nav_item{
+    display: inline-block;
+}
+
+#planetas{
+    margin-top: -1vw;
+}
+
+#goals{
+
+}
+
+#about{
+    margin-left: 13vw;
+}
+
+#academic{
+    margin-left: 13vw;
+}
+
+#experiences{
+    margin-left: 13vw;
+}
+
+.quadrado{
+    width: 70vw;
+    height: 65vh;
+    background: #e6e1ce;
+    opacity: 0.9;
+    margin-top: calc(100px - 5vw);
+}
+
+#rocket{
+    width: calc(300px - 3vw);
+    position: relative;
+    transform: rotate(270deg);
+    bottom: 90px;
+    float: left;
+    left: calc(-150px + 8vw);
+}
