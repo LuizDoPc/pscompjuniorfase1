@@ -16,7 +16,7 @@ body{
 #title{
     color: #b3d561;
     font-family: "Roboto Condensed";
-    font-size: calc(180px - 5vw);
+    font-size: calc(100px - 3vw);
 }
 
 #subtitle{
@@ -29,10 +29,6 @@ body{
 #line{
     margin-top: 2vw;
     border: 5px #e6e1ce dashed;
-}
-
-.nav_img{
-    width: calc(190px - 6vw);
 }
 
 .nav_name{
@@ -65,16 +61,20 @@ body{
 }
 
 .quadrado{
+    position: absolute;
+    top: calc(300px - 2vw);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     width: 70vw;
-    height: 65vh;
+    height: 60vh;
     background: #e6e1ce;
     opacity: 0.9;
-    margin-top: calc(100px - 5vw);
 }
 
 #rocket{
-    width: calc(300px - 3vw);
-    position: fixed;
+    position: absolute;
     transform: rotate(270deg);
     bottom: calc(100px - 1vw);
     float: left;
@@ -82,8 +82,82 @@ body{
 }
 
 #launch{
-    width: calc(200px - 2vw);
-    left: 15vw;
-    bottom: 10px;
-    position: fixed;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#title_home{
+    font-family: "Roboto";
+    font-weight: 300;
+    display: inline-block;
+    font-size: 400%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#capacete{
+    width: 15%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+
+#objetivos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 4vw;
+}
+
+.title{
+    font-weight: 100;
+    font-size: calc(100px - 2vw);
+    float: left;
+    margin-left: 5vw;
+    order: 1;
+}
+
+.txt_obj{
+    font-size: 150%;
+    font-weight: 300;
+    margin-left: calc(50px - 2vw);
+    margin-top: 1vw;
+}
+
+#obj1{
+    order: 2;
+}
+
+#obj2{
+    order: 3;
+}
+
+#obj3{
+    order: 4;
+}
+
+#experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 4vw;
+}
+
+#exp1{
+    order: 2;
+}
+#exp2{
+    order: 3;
+}
+#exp3{
+    order: 4;
+}
+#exp4{
+    order: 5;
 }
