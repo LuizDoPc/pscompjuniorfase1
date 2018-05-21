@@ -161,3 +161,66 @@ body{
 #exp4{
     order: 5;
 }
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#conteudo{
+    order: 2;
+}
+
+#title_sobre{
+    order: 1;
+    align-self: flex-start;
+}
+
+#txt_sobre{
+    font-size: 150%;
+    font-weight: 300;
+    padding: 3%;
+    overflow: auto;
+}
+
+#txt_sobre::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#txt_sobre::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#txt_sobre::-webkit-scrollbar-thumb
+{
+    background-color: #F90;
+    background-image: -webkit-linear-gradient(45deg,
+    rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent);
+    border-radius: 10vw;
+}
+
+#graph{
+    margin-top: -6%;
+    padding: 3%;
+}
+
+#grafico{
+    margin-top: calc(-150px + 8vw);
+}
+
+.bg-laranja{
+    background-color: #F90;!important;
+}
+
+
