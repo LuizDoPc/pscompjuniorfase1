@@ -76,10 +76,9 @@ body{
 
 #rocket{
     position: absolute;
-    transform: rotate(270deg);
     bottom: calc(100px - 1vw);
     float: left;
-    left: calc(-150px + 8vw);
+    left: calc(-50px + 6vw);
 }
 
 #launch{
