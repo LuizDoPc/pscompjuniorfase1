@@ -12,7 +12,7 @@ function lancar(){
         });
     });
 
-    $('#rocket').attr('data-onde', 'obj');
+    $('#rocket').attr('data-onde', 'home');
 }
 
 function objetivos(){
@@ -185,7 +185,7 @@ function experiencias(){
 $('#launch').click(function () {
     lancar();
     setTimeout(function () {
-        objetivos()
+        objetivos();
     }, 150);
 });
 
