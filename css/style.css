@@ -173,13 +173,10 @@ body{
 }
 
 #experiencias{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+
 }
 
 #conteudo_experiencias{
-    order: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
