@@ -13,6 +13,12 @@ body{
     font-family: "Roboto";
 }
 
+@media only screen and (max-width: 800px){
+    body{
+        background: none;
+    }
+}
+
 #title{
     color: #b3d561;
     font-family: "Roboto";

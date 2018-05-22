@@ -204,3 +204,9 @@ $('#academic').click(function () {
 $('#experiences').click(function () {
     experiencias();
 });
+
+$(document).ready(function () {
+    if(screen.width <= 425){
+        $('body').css("background-image", "none");
+    }
+});
