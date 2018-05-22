@@ -261,7 +261,7 @@ body{
 #formacao{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     overflow-y: auto;
     overflow-x: hidden;
 }
