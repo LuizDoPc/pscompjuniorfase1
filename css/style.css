@@ -15,8 +15,9 @@ body{
 
 #title{
     color: #b3d561;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto";
     font-size: calc(100px - 3vw);
+    font-weight: 400;
 }
 
 #subtitle{
@@ -72,6 +73,8 @@ body{
     background: #e6e1ce;
     opacity: 0.9;
     padding: 1%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 #rocket{
